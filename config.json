@@ -1,0 +1,105 @@
+{
+  "backends": [
+    {
+      "areas": [
+        {
+          "exterior": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 5
+            },
+            {
+              "x": 5,
+              "y": 5
+            },
+            {
+              "x": 5,
+              "y": 0
+            }
+          ],
+          "interiors": []
+        },
+        {
+          "exterior": [
+            {
+              "x": 20,
+              "y": 0
+            },
+            {
+              "x": 20,
+              "y": 5
+            },
+            {
+              "x": 25,
+              "y": 5
+            },
+            {
+              "x": 25,
+              "y": 0
+            }
+          ],
+          "interiors": []
+        }
+      ],
+      "backend": {
+        "base_url": "http://backend1"
+      }
+    },
+    {
+      "areas": [
+        {
+          "exterior": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": -5
+            },
+            {
+              "x": -5,
+              "y": -5
+            },
+            {
+              "x": -5,
+              "y": 0
+            }
+          ],
+          "interiors": []
+        },
+        {
+          "exterior": [
+            {
+              "x": -20,
+              "y": 0
+            },
+            {
+              "x": -20,
+              "y": -5
+            },
+            {
+              "x": -25,
+              "y": -5
+            },
+            {
+              "x": -25,
+              "y": 0
+            }
+          ],
+          "interiors": []
+        }
+      ],
+      "backend": {
+        "base_url": "http://backend2"
+      }
+    }
+  ],
+  "default_backend": {
+    "base_url": "http://default_backend"
+  }
+}
